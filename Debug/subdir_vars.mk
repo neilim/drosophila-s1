@@ -10,26 +10,32 @@ CMD_SRCS += \
 
 C_SRCS += \
 ../main.c \
-../system.c 
+../system.c \
+../uart.c 
 
 C_DEPS += \
 ./main.d \
-./system.d 
+./system.d \
+./uart.d 
 
 OBJS += \
 ./main.obj \
-./system.obj 
+./system.obj \
+./uart.obj 
 
 OBJS__QUOTED += \
 "main.obj" \
-"system.obj" 
+"system.obj" \
+"uart.obj" 
 
 C_DEPS__QUOTED += \
 "main.d" \
-"system.d" 
+"system.d" \
+"uart.d" 
 
 C_SRCS__QUOTED += \
 "../main.c" \
-"../system.c" 
+"../system.c" \
+"../uart.c" 
 
 
